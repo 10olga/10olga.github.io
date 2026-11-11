@@ -43,7 +43,7 @@
 }
 
 section {
-    vertical-align: baseline;
+    vertical-align: top;
     margin-top: 10px;
     margin-left: 10px;
     display: inline-block;
