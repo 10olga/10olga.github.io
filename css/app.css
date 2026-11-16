@@ -81,3 +81,10 @@ section a {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+}
