@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: Grotesk;
-    src: url('./font/HankenGrotesk-Regular.ttf') format('truetype');
+    src: url('../font/HankenGrotesk-Regular.ttf') format('truetype');
 }
 
 * {
