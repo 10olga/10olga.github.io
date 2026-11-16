@@ -1,3 +1,5 @@
+@include "./gridSheet.css";
+
 @font-face {
     font-family: Grotesk;
     src: url('./font/HankenGrotesk-Regular.ttf') format('truetype');
@@ -44,7 +46,7 @@
 
 section {
     display: inline-block;
-    vertical-align: top;
+    /* vertical-align: top;*/
     width: 30%;
     margin-top: 10px;
     margin-left: 10px;
