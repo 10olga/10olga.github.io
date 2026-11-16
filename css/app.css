@@ -46,7 +46,7 @@
 
 section {
     display: inline-block;
-    /* vertical-align: top;*/
+    vertical-align: top;
     width: 30%;
     margin-top: 10px;
     margin-left: 10px;

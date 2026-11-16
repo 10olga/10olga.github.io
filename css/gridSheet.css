@@ -9,6 +9,7 @@
         justify-content: center;
     }
    section {
+        vertical-align: none;
         width: 100%;
     }
 }
