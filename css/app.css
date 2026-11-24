@@ -64,6 +64,10 @@ section a {
     border-radius: 8px 0px 1px 0px;
 }
 
+section p {
+    margin:5px;
+}
+
 .profile-image {
     width: 300px;
     height: 300px;
