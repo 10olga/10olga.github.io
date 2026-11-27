@@ -1,6 +1,13 @@
 /* gridSheet */
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: minmax(10rem, auto);
+    grid-gap: 1rem;
+}
 
+/* Mobile */
 @media (max-width: 767px) {
     .container {
         display: flex;
@@ -9,10 +16,30 @@
         justify-content: center;
     }
    section {
-        vertical-align: none;
-        width: 100%;
+        width: 85%;
     }
     section > a {
+        width: 100%;
+        text-align: center;
+        border-radius: 8px 8px 0px 0px;
+    }
+}
+
+
+/* Padda */
+@media (min-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    section {
+        vertical-align: top;
+        width: 100%;
+    }
+
+    section>a {
         width: 100%;
         text-align: center;
         border-radius: 8px 8px 0px 0px;
